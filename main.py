@@ -162,7 +162,7 @@ add_text_tab(notebook, "Stationarity Test Results", result_original_stat + resul
 add_text_tab(notebook, "Model Metrics", metrics_text)
 
 # -------------------------------
-# Step 13: Close Handler
+# Step 13: Close Handler for fully exiting the program
 # -------------------------------
 def on_close():
     root.destroy()
